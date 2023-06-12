@@ -9,7 +9,7 @@ btn.addEventListener('click', function(){
     document.body.style.background = colors[randomColor]
     color.textContent = colors[randomColor]
 
-    if (randomColor === colors.indexOf("Black")) {
+    if (randomColor === colors.indexOf("Black") || randomColor === colors.indexOf("Blue"))  {
         document.body.style.color = "White"
     } else {
         document.body.style.color = ""
